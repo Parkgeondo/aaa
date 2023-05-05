@@ -1,0 +1,191 @@
+.Page_Wrapper{
+    /* padding: 16px; */
+    /* width: calc(100% - 32px); */
+    width: 100%;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Page_Container{
+    width: 100%;
+    max-width: 720px;
+}
+
+.Page_Container > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.Post_Container{
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 20px;
+    
+}
+
+.comment{
+    background-color: #F3F4F6;
+    border-radius: 12px;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    color: #828790;
+    
+}
+
+.Post_Container > textarea:focus{
+    outline: none;
+}
+.Post_Container > textarea:not(:last-child){
+margin-bottom: 10px;
+}
+.Post_Container textarea::placeholder{
+    color: #c9d0e0;
+}
+
+
+.Comment_Label{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.CommentList{
+    margin-bottom: 300px;
+    background-color: aqua;
+}
+
+
+.Post{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+    top: 40px;
+    position: sticky;
+}
+
+.Post_View_Wrap{
+    padding: 0px 20px;
+}
+
+.Post_View_title{
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 140%;
+}
+
+.Post_View_content{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #757575;
+}
+
+.Post_image{
+    margin-top: 16px;
+    width: 100%;
+    height: 300px;
+    background-color: #828790;
+    object-fit: cover;
+}
+
+
+.PostBottom{
+    width: 100%;
+    height: 24px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PostBottom_block{
+    display: flex;
+    gap: 14px;
+}
+.PostBottom_unit{
+    display: flex;
+    gap: 4px;
+}
+
+
+.WriteBottom{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    align-items: start;
+    height: 108px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #E5E5E5;
+}
+.WriteBottom > div{
+    width: 100%;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconMenu{
+    height: 24px;
+    display: flex;
+    gap: 16px;
+}
+.numberMenu{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.numberMenu > p{
+    background-color: antiquewhite;
+    line-height: 0px;
+    color: #555555;
+}
+.numberMenu > span{
+    width: 1px;
+    height: 16px;
+    background-color: #E5E5E5;
+}
+
+.previewImg{
+    width: 320px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 16px;
+    border-radius: 6px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.previewImgSelected{
+    outline: solid 3px #6C2FF1;
+    outline-offset: -3px;
+}
+
+.textFlex{
+    border-radius: 12px;
+    background-color: #F3F4F6;
+    display: flex;
+    align-items: start;
+    padding: 0px 0px;
+    flex-direction: column;
+    height: 514px;
+}
+
+.TextInput_Wrap{
+    padding: 12px 20px;
+    height: 100px;
+    border-top: 1px solid #E5E5E5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}

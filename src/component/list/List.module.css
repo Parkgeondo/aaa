@@ -1,0 +1,125 @@
+.postListWrap{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.postError{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-30%);
+    text-align: center;
+    color: #cacaca;
+    line-height: 160%;
+}
+.postError>img{
+    margin-bottom: 30px;
+}
+
+/* PostItem */
+.Post_Wrapper{
+    /* width: calc(100% - 32px); */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 0px;
+    cursor: pointer;
+    background: white !important;
+    margin-bottom: 4px;
+    height: 480px;
+}
+
+.Post_Wrapper:hover{
+    background: lightgrey;
+}
+
+.Post_Title{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.Post_content{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 160%;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* 리스트 이미지 */
+.Post_image{
+    width: 100%;
+    height: 278px;
+    border-radius: 12px;
+    background-color: rgb(218, 218, 218);
+    margin-bottom: 14px;
+    margin-top: 14px;
+    object-fit: cover;
+}
+
+/* PostList */
+.PostList_Wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.PostList_Wrapper > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+/* CommentItem */
+.Comment_Wrapper{
+    width: 100%;
+    padding: 14px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #F2F2F2;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.Comment_Wrapper:hover{
+    /* background: lightgrey; */
+}
+
+.Comment_Content{
+    margin-top: 6px;
+    font-size: 16px;
+    white-space: pre-wrap;
+    padding-left: 40px;
+    color: #757575;
+    line-height: 160%;
+}
+
+/* CommentList */
+.CommentList_Wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Comment_time{
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    color: #777777;
+}
+
+.CommentList_Wrapper{
+    margin-bottom: 120px;
+}
+
+
+.CommentList_Wrapper > *:not(:last-child) {
+}
+
