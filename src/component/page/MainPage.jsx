@@ -25,7 +25,7 @@ function MainPage(props){
             setDatalength(data.length)
             console.log(datalength)
         })
-    }, [])
+    })
 
     
 

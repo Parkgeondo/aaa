@@ -2,7 +2,7 @@
   "name": "hello-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wksehs123.github.io/aaa",
+  "homepage": "https://github.com/Parkgeondo/aaa.git",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
